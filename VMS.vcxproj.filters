@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Render">
+      <UniqueIdentifier>{d0acc298-0339-427f-b3fb-e6e6a4d2f62f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render\RenderObject">
+      <UniqueIdentifier>{c7d3b41d-f839-4fbb-b5c6-da4dbc1a440a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="APP">
+      <UniqueIdentifier>{4637b599-abc8-4a06-b732-93ff1ab319b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Calculation">
+      <UniqueIdentifier>{152f0252-8881-4bd9-ba91-bc95b41d0c43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Event">
+      <UniqueIdentifier>{4bdde9c6-9913-42a5-9a34-6542d182b4d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Thread">
+      <UniqueIdentifier>{b090075d-cbb6-44ff-8323-ca184838077b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ModelControl">
+      <UniqueIdentifier>{9c8aa95c-aac1-4a69-97ad-1ca3c7b945cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI">
+      <UniqueIdentifier>{8a1809e8-93ea-4130-9b73-a7a41a063490}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\Chart">
+      <UniqueIdentifier>{13b9ba59-3e51-4357-a771-5783a782e0ee}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="EntryPoint.cpp" />
+    <ClCompile Include="Window.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderObject.cpp">
+      <Filter>Render\RenderObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Wheel.cpp">
+      <Filter>Render\RenderObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Application.cpp">
+      <Filter>APP</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicMovementData.cpp">
+      <Filter>Calculation</Filter>
+    </ClCompile>
+    <ClCompile Include="Body.cpp">
+      <Filter>Render\RenderObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Suspension.cpp">
+      <Filter>Render\RenderObject</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleCoord.cpp">
+      <Filter>Calculation</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleBasicData.cpp">
+      <Filter>Calculation</Filter>
+    </ClCompile>
+    <ClCompile Include="InPutEventCallBack.cpp">
+      <Filter>Event</Filter>
+    </ClCompile>
+    <ClCompile Include="Axis.cpp">
+      <Filter>Render\RenderObject</Filter>
+    </ClCompile>
+    <ClCompile Include="MatTransform.cpp">
+      <Filter>Calculation</Filter>
+    </ClCompile>
+    <ClCompile Include="Vehicle.cpp">
+      <Filter>ModelControl</Filter>
+    </ClCompile>
+    <ClCompile Include="Building.cpp">
+      <Filter>Render\RenderObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Tracing.cpp">
+      <Filter>Render\RenderObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Drive.cpp">
+      <Filter>ModelControl</Filter>
+    </ClCompile>
+    <ClCompile Include="vehicleHUD.cpp">
+      <Filter>ModelControl</Filter>
+    </ClCompile>
+    <ClCompile Include="SteeringWheel.cpp">
+      <Filter>Render\RenderObject</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleRenderBasicData.cpp">
+      <Filter>Render\RenderObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Pedal.cpp">
+      <Filter>Render\RenderObject</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadPool.cpp">
+      <Filter>Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIRenderer.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="LineChart.cpp">
+      <Filter>GUI\Chart</Filter>
+    </ClCompile>
+    <ClCompile Include="raylib_src\include\raygui.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Window.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Core.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderObject.h">
+      <Filter>Render\RenderObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Wheel.h">
+      <Filter>Render\RenderObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.h">
+      <Filter>APP</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicMovementData.h">
+      <Filter>Calculation</Filter>
+    </ClInclude>
+    <ClInclude Include="Body.h">
+      <Filter>Render\RenderObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Suspension.h">
+      <Filter>Render\RenderObject</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleCoord.h">
+      <Filter>Calculation</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleBasicData.h">
+      <Filter>Calculation</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleRenderBasicData.h">
+      <Filter>Render\RenderObject</Filter>
+    </ClInclude>
+    <ClInclude Include="InPutEventCallBack.h">
+      <Filter>Event</Filter>
+    </ClInclude>
+    <ClInclude Include="Axis.h">
+      <Filter>Render\RenderObject</Filter>
+    </ClInclude>
+    <ClInclude Include="MatTransform.h">
+      <Filter>Calculation</Filter>
+    </ClInclude>
+    <ClInclude Include="Vehicle.h">
+      <Filter>ModelControl</Filter>
+    </ClInclude>
+    <ClInclude Include="Building.h">
+      <Filter>Render\RenderObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Tracing.h">
+      <Filter>Render\RenderObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Drive.h">
+      <Filter>ModelControl</Filter>
+    </ClInclude>
+    <ClInclude Include="vehicleHUD.h">
+      <Filter>ModelControl</Filter>
+    </ClInclude>
+    <ClInclude Include="SteeringWheel.h">
+      <Filter>Render\RenderObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Pedal.h">
+      <Filter>Render\RenderObject</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadPool.h">
+      <Filter>Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIRenderer.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="LineChart.h">
+      <Filter>GUI\Chart</Filter>
+    </ClInclude>
+    <ClInclude Include="raylib_src\include\raygui.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
